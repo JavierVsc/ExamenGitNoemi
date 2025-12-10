@@ -1,7 +1,30 @@
-*{
-    font-family:Montserrat;
+* {
+  box-sizing: border-box;
 }
 
-.bg-informacion{
-    background-color: rgb(160, 185, 177);
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Montserrat", sans-serif;
+}
+
+.bg-1 {
+  background: #b7d0c8; 
+}
+
+.bio { 
+  border: 1px solid rgba(0,0,0,0.08);
+  background: #ffffff; 
+
+}
+.bg-2 {
+  background:  #ddf1eb; ;
+}
+
+@media (min-width: 768px) {
+  .bg-informacion .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
